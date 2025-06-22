@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
-Widget customWidget({title, color, description, tilcolor}) {
+Widget customWidget({title, color, description, tilcolor, img}) {
   return ListTile(
-    leading: CircleAvatar(backgroundColor: color),
+    leading: CircleAvatar(backgroundImage: AssetImage("$img")),
     title: Text("$title"),
     subtitle: Text("$description"),
     trailing: Row(

@@ -10,7 +10,6 @@ class MyList extends StatelessWidget {
       appBar: AppBar(
         title: Text('WhatsApp Business'),
         actions: [
-          IconButton(icon: const Icon(Icons.search), onPressed: () {}),
           IconButton(icon: const Icon(Icons.camera_alt), onPressed: () {}),
           IconButton(icon: const Icon(Icons.search), onPressed: () {}),
           IconButton(icon: const Icon(Icons.more_vert), onPressed: () {}),
@@ -30,24 +29,28 @@ class MyList extends StatelessWidget {
               color: Colors.green,
               description: 'Business account',
               tilcolor: Colors.greenAccent,
+              img: "assets/images/bmw.jpg",
             ),
             customWidget(
               title: 'Umer Farooq',
               color: Colors.blue,
               description: 'Personal account',
               tilcolor: Colors.blueAccent,
+              img: "assets/images/Subaru.png",
             ),
             customWidget(
               title: 'Iqbal Paya',
               color: Colors.blueGrey,
               description: 'personal account',
               tilcolor: Colors.blueGrey[300],
+              img: "assets/images/Lamb.png",
             ),
             customWidget(
               title: 'Abdul Sattar',
               color: Colors.red,
               description: 'personal account',
               tilcolor: Colors.redAccent,
+              img: "assets/images/Nissan.png",
             ),
           ],
         ),
